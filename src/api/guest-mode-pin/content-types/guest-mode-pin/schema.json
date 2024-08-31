@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "guest_mode_pins",
+  "info": {
+    "singularName": "guest-mode-pin",
+    "pluralName": "guest-mode-pins",
+    "displayName": "guestModePin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hasPin": {
+      "type": "boolean",
+      "default": false
+    },
+    "pinCode": {
+      "type": "string"
+    }
+  }
+}

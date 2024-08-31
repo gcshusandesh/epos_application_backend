@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "processed_orders",
+  "info": {
+    "singularName": "processed-order",
+    "pluralName": "processed-orders",
+    "displayName": "ProcessedOrder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tableNumber": {
+      "type": "string"
+    },
+    "items": {
+      "type": "text"
+    },
+    "instruction": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal",
+      "min": 0,
+      "default": 0
+    },
+    "discount": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
+    },
+    "orderStatus": {
+      "type": "string"
+    },
+    "billedTo": {
+      "type": "string"
+    },
+    "isPaid": {
+      "type": "boolean",
+      "default": false
+    },
+    "paymentMode": {
+      "type": "string"
+    },
+    "receivedBy": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
+    },
+    "cost": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0
+    }
+  }
+}
